@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project name="Yeopen" basedir="." default="deploy">
+<project name="Deployment" basedir="." default="deploy">
 
     <!-- Load our configuration -->
     <property file="build.properties" />

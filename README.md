@@ -1,12 +1,12 @@
 
 
-Auto deploy phing script for zend framework2 and doctrine 2 apps 
+Phing's deployment script for zend framework2 and doctrine 2 apps 
 
 Structure
 =================
 - build.xml - main build file
 - build.properties - build propertyes 
-- db/sample_data.sql - Dump with sample data for import
+- db/sample_data.sql - dump with sample sql data for import
 - templates/doctrine.local.php.template template file for doctrine config
 
 

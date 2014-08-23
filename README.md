@@ -21,7 +21,7 @@ Inside project root
  
 
 
-Automatic deploymnet
+Automatic deployment
 ====================
 
 ```sh

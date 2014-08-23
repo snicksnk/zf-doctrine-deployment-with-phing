@@ -1,6 +1,6 @@
 
 
-Auto deploy phing script for zend framework2 and doctrine 2 apps
+Auto deploy phing script for zend framework2 and doctrine 2 apps 
 
 Structure
 =================
@@ -15,9 +15,9 @@ Manual deployment
 
 Inside project root 
 
-- git clone https://github.com/snicksnk/zf-doctrine-deployment-with-phing.git deploy 
-- cd deploy
-- phing 
+- $git clone https://github.com/snicksnk/zf-doctrine-deployment-with-phing.git deploy 
+- $cd deploy
+- $phing 
  
 
 
@@ -25,5 +25,5 @@ Automatic deployment
 ====================
 
 ```sh
-phing -buildfile path/to/build.xml  -Dnoinput="1" -Ddb.host='localhost'  -Ddb.port='3306' -Ddb.user='user' -Ddb.password='password' -Ddb.name='database'
+$phing -buildfile path/to/build.xml  -Dnoinput="1" -Ddb.host='localhost'  -Ddb.port='3306' -Ddb.user='user' -Ddb.password='password' -Ddb.name='database'
 ```
